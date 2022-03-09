@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_ad">Ad</string>
+    <string name="banner_ad_title">Space Museum</string>
+    <string name="banner_ad_message">Let\'s learn about satellites.</string>
+    <string name="infeed_ad_1_title">Children Zoo</string>
+    <string name="infeed_ad_2_title">Children Aquarium</string>
+    <string name="infeed_ad_1_message">Seeing wallabies up close.</string>
+    <string name="infeed_ad_2_message">Many penguins welcome you.</string>
+</resources>

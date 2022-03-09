@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="textHE">#222</color>
+    <color name="textME">#666</color>
+    <color name="label_ad">#ffb300</color>
+</resources>
