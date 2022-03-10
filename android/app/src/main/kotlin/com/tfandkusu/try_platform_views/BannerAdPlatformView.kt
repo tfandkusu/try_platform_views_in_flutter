@@ -6,8 +6,8 @@ import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.try_platform_views.R
 import io.flutter.plugin.platform.PlatformView
+import timber.log.Timber
 
 class BannerAdPlatformView(
         context: Context,
@@ -28,6 +28,15 @@ class BannerAdPlatformView(
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             context.startActivity(intent)
         }
+        viewGroup.addOnAttachStateChangeListener(object : View.OnAttachStateChangeListener {
+            override fun onViewAttachedToWindow(v: View?) {
+                Timber.d("onViewAttachedToWindow")
+            }
+
+            override fun onViewDetachedFromWindow(v: View?) {
+                Timber.d("onViewDetachedFromWindow")
+            }
+        })
     }
 
     override fun getView(): View {
