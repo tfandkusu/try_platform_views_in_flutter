@@ -25,6 +25,7 @@ class BannerAdPlatformView(
         ) as ViewGroup
         viewGroup.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com/"))
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             context.startActivity(intent)
         }
     }
