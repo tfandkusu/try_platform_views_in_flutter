@@ -1,6 +1,8 @@
 package com.tfandkusu.try_platform_views
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +23,10 @@ class BannerAdPlatformView(
         viewGroup = layoutInflater.inflate(
                 R.layout.view_banner_ad, null, false
         ) as ViewGroup
+        viewGroup.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com/"))
+            context.startActivity(intent)
+        }
     }
 
     override fun getView(): View {
