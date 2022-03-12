@@ -1,16 +1,11 @@
-# try_platform_views
+# try_platform_views_in_flutter
 
-A new Flutter project.
+Platform viewsを使用して、iOS/AndroidネイティブのViewをFlutterに貼り付けることの技術検証
 
-## Getting Started
+https://user-images.githubusercontent.com/16898831/158017076-518dd3f6-99f5-4fee-91d3-16e17fcc3d8c.mp4
 
-This project is a starting point for a Flutter application.
+下部の仮想的なバナー広告がAndroidネイティブのViewです。
 
-A few resources to get you started if this is your first Flutter project:
+# 使用画像素材
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[いらすとや](https://www.irasutoya.com/)
